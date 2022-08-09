@@ -1,0 +1,14 @@
+﻿Step#,Command,Parameter1,Parameter2
+10, Home All, 0, 0
+20,Y Move Rel,0.5,0  # move Y 0.5mm in positive direction
+30,X Move Abs,1500,0 # move X from home to 1500 mm
+40,Y Move Rel,0.5,0  # move Y another 0.5mm for the next X axis sweep
+50,X Move Abs,100,0  # move X back to 100 mm
+#
+# repeat steps 20 to 50 10 times
+60,Repeat,20,10
+70,Y Move Abs,0,0    # move Y back at start position
+80,End,,
+#
+# The parsing will terminate if encounters an empty line
+# '#' or '/' are commented lines
