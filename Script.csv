@@ -1,13 +1,13 @@
-﻿Step#,Command,Parameter1,Parameter2
-10,Home All,0,0
-20,Y Move Rel,0.5,0
-30,Wait,2000,
-40,X Move Abs,1500,0
-50,Wait,2000,
-60,Y Move Rel,0.5,0
-70,Wait,2000,
-80,X Move Abs,100,0
-90,Wait,2000,
-100,Repeat,20,10
-110,Y Move Abs,0,0
-120,End,,
+﻿Step#,Command,Parameter1,Parameter2,Parameter3
+10,Home All,0,0,0
+20,Y Move Rel,20,1,0
+30,Wait,500,0,0
+40,X Move Abs,300,0,0
+50,Wait,1000,0,0
+60,Y Move Rel,10,-1,0
+70,Wait,500,0,0
+80,X Move Abs,50,0,0
+90,Wait,1000,0,0
+100,Repeat,20,5,0
+110,Y Move Abs,10,0,0
+120,End,0,0,0
