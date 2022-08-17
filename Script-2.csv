@@ -1,0 +1,10 @@
+Step#,Command,Parameter1,Parameter2,Parameter3
+10,X Home,0,0,0
+20,X Move Abs,50.00,10.00,0
+30,Wait,2000.00,0,0
+40,X Move Abs,100.00,10.00,0
+50,Wait,2000.00,0,0
+60,X Move Abs,20.00,10.00,0
+70,Wait,2000.00,0,0
+100,Repeat,20.00,5.00,0
+120,End,0,0,0
