@@ -1,8 +1,0 @@
-Step#,Command,Parameter1,Parameter2,Parameter3
-20,Reset Intlk Timer,0,0,0
-40,Y Move Rel,1.00,1.00,0
-60,X Move Abs,1800.00,0,1000.00
-70,Wait,3000.00,0,0
-100,Y Move Rel,0.50,0,0
-110,X Move Abs,10.00,0,1000.00
-120,End,0,0,0
