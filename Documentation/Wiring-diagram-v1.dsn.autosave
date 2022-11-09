@@ -11,12 +11,12 @@ download the executable.-->
 			<GUIDES horiz='7' vert='5'/>
 			<TITLE>Alpha Redux Wiring Diagram</TITLE>
 			<AUTHOR>S Barabonkov</AUTHOR>
-			<REVISION>1.0</REVISION>
+			<REVISION>1.2</REVISION>
 			<DOCNUMBER></DOCNUMBER>
 			<ORGANISATION>VulcanForms</ORGANISATION>
 			<SHEETS>1 of 1</SHEETS>
 			<SHOWS>3</SHOWS>
-			<DATE>11/08/2022</DATE>
+			<DATE>09/02/2022</DATE>
 			<GRID spacing='50.00000' snap='1'/>
 		</DETAILS>
 		<FONT id='0'>
@@ -1893,6 +1893,7 @@ Monitor 2
 		<WIRE a='136.00000,98.00000' b='136.00000,108.00000'/>
 		<WIRE a='136.00000,108.00000' b='442.00000,108.00000'/>
 		<WIRE a='442.00000,108.00000' b='442.00000,142.00000'/>
+		<WIRE a='170.00000,124.00000' b='567.00000,124.00000'/>
 		<SYMBOL id='14' pos='587.00000,126.00000' part='0' rotate='1' can_scale='1' show_power='0' scale_x='2.00000' scale_y='2.00000'>
 			<FIELD type='1' description='Ref' value='P1' show='1' pos='-9.00000,-14.60000'/>
 			<FIELD type='0' description='Name' value='Zaber E-Stop' show='1' pos='-10.00000,5.00000'/>
@@ -2126,10 +2127,13 @@ XVC6B15SK</NOTE_TEXT>
 		<LABEL pos='526.00000,174.00000' direction='3' font='5' color='208000' style='0'>2</LABEL>
 		<LABEL pos='518.00000,176.00000' direction='3' font='5' color='208000' style='0'>3</LABEL>
 		<LABEL pos='526.00000,176.00000' direction='3' font='5' color='208000' style='0'>4</LABEL>
-		<WIRE a='170.00000,124.00000' b='571.00000,124.00000'/>
-		<WIRE a='571.00000,124.00000' b='571.00000,122.00000'/>
+		<NOTE_TEXT a='266.00000,178.00000' b='294.00000,188.00000' direction='3' style='14' fill='7' font='5' color='FF0000' border_style='1'>RS4N-DE
+Fuji Electric card relay
+Supressors build-in.</NOTE_TEXT>
+		<WIRE a='567.00000,124.00000' b='567.00000,122.00000'/>
+		<WIRE a='567.00000,122.00000' b='571.00000,122.00000'/>
 		<WIRE a='170.00000,118.00000' b='571.00000,118.00000'/>
-		<LABEL pos='558.00000,124.00000' direction='3' font='5' color='208000' style='0'>E-stop +</LABEL>
+		<LABEL pos='559.00000,125.00000' direction='3' font='5' color='208000' style='0'>E-stop +</LABEL>
 		<LABEL pos='558.00000,118.00000' direction='3' font='5' color='208000' style='0'>E-stop -</LABEL>
 		<WIRE a='581.00000,16.00000' b='581.00000,28.00000'/>
 		<WIRE a='584.00000,20.00000' b='584.00000,32.00000'/>
@@ -2150,7 +2154,7 @@ XVC6B15SK</NOTE_TEXT>
 		<ELLIPSE a='450.00000,270.00000' b='472.00000,274.00000' style='17' fill='0'/>
 		<ELLIPSE a='526.00000,270.00000' b='548.00000,274.00000' style='17' fill='0'/>
 		<ELLIPSE a='358.00000,260.00000' b='376.00000,262.00000' style='17' fill='0'/>
-		<ELLIPSE a='562.00000,113.00000' b='564.00000,127.00000' style='20' fill='0'/>
+		<ELLIPSE a='547.00000,114.00000' b='549.00000,128.00000' style='17' fill='0'/>
 		<SYMBOL id='18' pos='174.00000,292.00000' part='0' rotate='7' can_scale='1' show_power='0' scale_x='0.75000' scale_y='0.66667'>
 			<FIELD type='1' description='Ref' value='P2' show='1' pos='2.00000,-2.00000'/>
 			<FIELD type='0' description='Name' value='PSU Out' show='1' pos='2.00000,0.00000'/>
