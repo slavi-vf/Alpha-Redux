@@ -1,0 +1,10 @@
+Step#,Command,Parameter1,Parameter2,Parameter3
+20,Reset Intlk Timer,0,0,0
+30,Laser Sys ON,1.00,0,0
+40,Y Move Rel,0.50,1.00,0
+50,Laser ENA,1.00,0,0
+60,X Move Abs,1990.00,0,1000.00
+90,Y Move Rel,0.50,1.00,0
+100,X Move Abs,10.00,0,1000.00
+110,Laser ENA,0,0,0
+120,End,0,0,0
