@@ -2216,8 +2216,8 @@ XVC6B15SK</NOTE_TEXT>
 		<JUNCTION pos='294.00000,176.00000'/>
 		<LABEL pos='68.00000,125.00000' direction='3' font='3' color='208000' style='0'>11</LABEL>
 		<LABEL pos='88.00000,125.00000' direction='3' font='3' color='208000' style='0'>12</LABEL>
-		<LABEL pos='68.00000,130.00000' direction='3' font='3' color='208000' style='0'>23</LABEL>
-		<LABEL pos='88.00000,130.00000' direction='3' font='3' color='208000' style='0'>24</LABEL>
+		<LABEL pos='68.00000,130.00000' direction='3' font='3' color='208000' style='0'>21</LABEL>
+		<LABEL pos='88.00000,130.00000' direction='3' font='3' color='208000' style='0'>22</LABEL>
 		<TEXT pos='104.00000,102.00000' direction='3' font='3' color='000000'>BLU</TEXT>
 		<TEXT pos='104.00000,124.00000' direction='3' font='3' color='000000'>BLK</TEXT>
 		<TEXT pos='104.00000,152.00000' direction='3' font='3' color='000000'>YEL</TEXT>
@@ -2438,16 +2438,16 @@ XVC6B15SK</NOTE_TEXT>
 		<TEXT pos='470.00000,141.00000' direction='3' font='9' color='000000'>BLU</TEXT>
 		<TEXT pos='346.00000,142.00000' direction='3' font='9' color='000000'>YEL</TEXT>
 		<TEXT pos='193.00000,148.00000' direction='3' font='9' color='000000'>WHT</TEXT>
-		<TEXT pos='388.00000,242.00000' direction='0' font='9' color='000000'>BLK</TEXT>
+		<TEXT pos='388.00000,242.00000' direction='0' font='9' color='000000'>WHT</TEXT>
 		<TEXT pos='426.00000,242.00000' direction='0' font='9' color='000000'>BLK</TEXT>
 		<TEXT pos='456.00000,242.00000' direction='0' font='9' color='000000'>BLK</TEXT>
-		<TEXT pos='480.00000,242.00000' direction='0' font='9' color='000000'>BLK</TEXT>
+		<TEXT pos='480.00000,242.00000' direction='0' font='9' color='000000'>BRN</TEXT>
 		<TEXT pos='532.00000,242.00000' direction='0' font='9' color='000000'>BLK</TEXT>
 		<TEXT pos='542.00000,242.00000' direction='0' font='9' color='000000'>RED</TEXT>
-		<TEXT pos='502.00000,242.00000' direction='0' font='9' color='000000'>RED</TEXT>
+		<TEXT pos='502.00000,242.00000' direction='0' font='9' color='000000'>ORG</TEXT>
 		<TEXT pos='466.00000,242.00000' direction='0' font='9' color='000000'>RED</TEXT>
 		<TEXT pos='442.00000,242.00000' direction='0' font='9' color='000000'>RED</TEXT>
-		<TEXT pos='410.00000,242.00000' direction='0' font='9' color='000000'>RED</TEXT>
+		<TEXT pos='410.00000,242.00000' direction='0' font='9' color='000000'>GRN</TEXT>
 		<TEXT pos='495.00000,192.00000' direction='3' font='9' color='000000'>WHT</TEXT>
 		<TEXT pos='345.00000,108.00000' direction='3' font='9' color='000000'>BLU</TEXT>
 		<TEXT pos='329.00000,182.00000' direction='0' font='9' color='000000'>RED</TEXT>
@@ -2494,5 +2494,9 @@ XVC6B15SK</NOTE_TEXT>
 		<TEXT pos='240.00000,76.00000' direction='0' font='9' color='000000'>RED</TEXT>
 		<WIRE a='159.07003,129.07981' b='162.00000,129.07981'/>
 		<WIRE a='162.00000,129.07981' b='162.00000,134.00000'/>
+		<LABEL pos='392.00000,304.00000' direction='3' font='3' color='208000' style='0'>23</LABEL>
+		<LABEL pos='407.00000,304.00000' direction='3' font='3' color='208000' style='0'>24</LABEL>
+		<LABEL pos='484.00000,304.00000' direction='3' font='3' color='208000' style='0'>23</LABEL>
+		<LABEL pos='499.00000,304.00000' direction='3' font='3' color='208000' style='0'>24</LABEL>
 	</TinyCAD>
 </TinyCADSheets>
